@@ -104,16 +104,16 @@
 // }
 
 //5.	Nested Loop Pattern for right triangle asterisks pattern
-let height = 5; // You can change this number to adjust the triangle height
+// let height = 5; // You can change this number to adjust the triangle height
 
-// Loop for each row
-for (let i = 1; i <= height; i++) {
-    let row = ""; // Initialize an empty string for the current row
+// // Loop for each row
+// for (let i = 1; i <= height; i++) {
+//     let row = ""; // Initialize an empty string for the current row
 
-    // Loop to add asterisks for the current row
-    for (let j = 1; j <= i; j++) {
-        row += "*"; // Add an asterisk for each column
-    }
+//     // Loop to add asterisks for the current row
+//     for (let j = 1; j <= i; j++) {
+//         row += "*"; // Add an asterisk for each column
+//     }
 
-    console.log(row); // Print the current row
-}
+//     console.log(row); // Print the current row
+// }
